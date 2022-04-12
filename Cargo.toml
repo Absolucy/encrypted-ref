@@ -1,0 +1,14 @@
+[package]
+name = "encrypted-ref"
+description = "Oh dear god why"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+authors = ["Lucy <lucy@absolucy.moe>"]
+repository = "https://github.com/Absolucy/encrypted-ref"
+
+[dependencies]
+aes = { version = "0.8.1", features = ["zeroize"] }
+cbc = { version = "0.1.2", features = ["std", "zeroize"] }
+rand = "0.8.5"
+zeroize = { version = "1.5.4", features = ["derive"] }
