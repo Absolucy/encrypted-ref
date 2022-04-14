@@ -154,7 +154,7 @@ impl<T: 'static> Clone for EncryptedWeak<T> {
 	}
 }
 
-fn is_dangling<T: ?Sized>(ptr: *mut T) -> bool {
+pub(super) fn is_dangling<T: ?Sized>(ptr: *mut T) -> bool {
 	let address = ptr as *mut () as usize;
 	address == usize::MAX
 }
