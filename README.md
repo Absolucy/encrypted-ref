@@ -51,3 +51,7 @@ But yes, it would.
 ## License
 
 `encrypted-ptr` is dual-licensed under the [Apache 2.0 license](LICENSE-MIT.md) or [MIT license](LICENSE-MIT.md). Use whichever one floats your boat.
+
+### Amendment
+
+I, @Absolucy, fully give permission for any of my code (including the entirety of this project, rand-wyrand), anywhere, no matter the license, to be used to train machine learning models intended to be used for general-purpose programming or code analysis.
